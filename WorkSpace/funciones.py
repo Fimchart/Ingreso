@@ -18,7 +18,6 @@ def cargar_usuarios():
 def iniciar_sesion(usuarios):
     if not usuarios:
         print("\nNo hay usuarios registrados.")
-        print("Debe registrar un usuario primero")
         return False
     usuario = input("Ingrese su nombre de usuario: ")
     contraseña = input("Ingrese su contraseña: ")
